@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Bernabe Vega
-title: Attempt of sysadmin
+title: Sysadmin & Full-Stack Developer
 email: bernabe@beroth.moe
 website: https://beroth.moe
 
@@ -32,9 +32,9 @@ minecraft_server: beroth.moe
 
 # Additional icon links
 additional_links:
-  - title: gitea
-    icon: fa-brands fa-git
-    url: https://git.beroth.moe
+  - title: Gitea
+    icon: fab fa-git-alt
+    url: https://git.beroth.moe/beroth
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,10 +49,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi I'm Bernabe and I'm open to work, I've been working in IT for over three years, two of them as a developer.
-  I like to never stop learning and try to always try new things and take advantage with code.
-  I have experience working with Linux and Windows servers but what I like the most is Linux.
-  I am most skilled in: <mark>Linux</mark>, <mark>JavaScript</mark> & <mark>networking</mark>
+  Hi, I'm Bernabe, and I'm open to work. I've been working in IT for over three years, two of them as a developer.
+  I never stop learning: I'm always trying new things and looking for ways to make the most of them with code.
+  I have experience with both Linux and Windows servers, but Linux is the one I enjoy the most.
+  I'm most skilled in <mark>Linux</mark>, <mark>JavaScript</mark> & <mark>networking</mark>.
 
 content:
   - title: Experience # Title for the section
@@ -65,28 +65,28 @@ content:
         quote: >
           Promoted through roles: IT Intern → IT Analyst → IT Leader → ERP Leader
         description: | # this will include new lines to allow paragraphs
-          Architected, developed, and deployed internal tools, custom ERP modules, and IT infrastructure over 2+ years.
+          Architected, developed, and deployed internal tools, custom ERP modules, and IT infrastructure over the past 2+ years.
 
           **Full-Stack Development & Internal Tools:**
-          - Built unified internal SPAs using <mark>ReactJS</mark>, <mark>MUI</mark>, <mark>Material-React-Table</mark>, and <mark>useQuery</mark>, featuring client-side PDF, Excel, and image generation in vanilla JS.
-          - Engineered backend services using <mark>Bun</mark>, <mark>Express</mark>, REST APIs, JWT authentication with RBAC, <mark>PostgreSQL</mark>, <mark>MongoDB</mark>, SOAP ERP integrations, and <mark>MinIO</mark> object storage.
+          - Built unified internal SPAs with <mark>React</mark>, <mark>MUI</mark>, <mark>Material React Table</mark>, and <mark>TanStack Query</mark>, featuring client-side PDF, Excel, and image generation in vanilla JS.
+          - Engineered REST API backends with <mark>Bun</mark> and <mark>Express</mark>, including JWT authentication with RBAC, <mark>PostgreSQL</mark> and <mark>MongoDB</mark> databases, SOAP integrations with the ERP, and <mark>MinIO</mark> object storage.
           - Replaced legacy internal Excel files with real-time web dashboards and custom CRUD tools.
 
           **ERP Customization & Data Solutions:**
-          - Administered and customized <mark>EFI PACE ERP</mark>, designing an Easy Quote module and a simplified custom MRP system tailored to company needs.
-          - Migrated PowerBI reports to high-performance web dashboards with real-time data integration from EFI PACE ERP and Contpaq.
+          - Administered and customized <mark>EFI Pace</mark> ERP, designing an Easy Quote module and a simplified custom MRP system tailored to company needs.
+          - Migrated Power BI reports to high-performance web dashboards with real-time data from EFI Pace and CONTPAQi.
 
           **Operations, Logistics & Automation:**
-          - Integrated <mark>FedEx</mark> and <mark>DHL</mark> APIs for automated real-time delivery status updates.
-          - Built an automated warehouse flow to supply required materials to production areas based on current demand.
-          - Designed a barcode-driven production tracking system (scanning task and employee credentials) to simplify activity tracking.
-          - Developed a mobile delivery-scanning module allowing drivers to upload photo proof of delivery on site, replacing WhatsApp messaging.
+          - Integrated <mark>FedEx</mark> and <mark>DHL</mark> APIs for automated, real-time delivery status updates.
+          - Built an automated warehouse flow that supplies materials to production areas based on current demand.
+          - Designed a barcode-driven production tracking system (scanning task and employee codes) to simplify activity logging.
+          - Developed a mobile delivery-scanning module that lets drivers upload photo proof of delivery on site, replacing WhatsApp messages.
 
           **Infrastructure, Security & Observability:**
-          - Hardened backends with JWT/RBAC and published internal tools securely using <mark>Nginx</mark> reverse proxy and <mark>Certbot</mark> SSL certificates.
-          - Built virtualized clusters on <mark>Proxmox</mark> and migrated to <mark>XCP-NG</mark> for enterprise VM management, snapshot backups, and disaster recovery.
-          - Managed ~250 endpoints via <mark>FleetDM</mark>, creating automation scripts to block USB ports and auto-configure VNC access on <mark>Apache Guacamole</mark>.
-          - Deployed telemetry monitoring for Nginx using <mark>Grafana</mark>, <mark>Mimir</mark>, <mark>Loki</mark>, and <mark>Alloy</mark>.
+          - Published internal tools securely behind an <mark>Nginx</mark> reverse proxy with SSL certificates from <mark>Certbot</mark>.
+          - Built virtualized clusters on <mark>Proxmox</mark>, later migrating to <mark>XCP-ng</mark> for enterprise VM management, snapshot backups, and disaster recovery.
+          - Managed ~250 endpoints with <mark>FleetDM</mark>, writing automation scripts to block USB ports and auto-configure VNC access through <mark>Apache Guacamole</mark>.
+          - Deployed Nginx observability with <mark>Grafana</mark>, <mark>Mimir</mark>, <mark>Loki</mark>, and <mark>Alloy</mark>.
 
       - layout: left
         title: Centro empresarial de Jalisco S.P.
@@ -103,7 +103,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: My self hosted stuff
+        title: My Self-Hosted Stuff
         link: beroth.moe
         # link_text: Project Website
         #additional_links:
@@ -114,24 +114,24 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          I use arch BTW (debian for servers I'm not crazy 🥴)
+          I use Arch, BTW (Debian for servers, I'm not crazy 🥴)
         description: | # this will include new lines to allow paragraphs
-          I started to rent my first VPS in 2023 for <mark>Server administration class</mark> and after that I've keep doing it. 
-          The things I currently host and host for a while are:
-            - Email whit exim & dovecot, currently with poste.io
-            - Proxys with nginx apache (with SSL of curse)
-            - OpenVPN & Wireguard VPN
-            - ShadowSocks tunnel proxy (to jump the CUCEI firewall 👻)
-            - A PBX with asterisk and issabel (no longer do this)
+          I rented my first VPS in 2023 for a <mark>server administration class</mark> and I've kept doing it ever since.
+          Things I host now or have hosted in the past:
+            - Email with Exim & Dovecot, now running on poste.io
+            - Reverse proxies with Nginx & Apache (with SSL, of course)
+            - OpenVPN & WireGuard VPNs
+            - Shadowsocks tunnel proxy (to jump the CUCEI firewall 👻)
             - Minecraft servers
-            - Matrix (no longer active)
-            - FTP with proftpd (no longer active)
-            - PiHole + Unbound
-            - CopyParty
+            - Pi-hole + Unbound
+            - copyparty
             - Immich
-            - N8N and Gitea with postgres
+            - n8n & Gitea with PostgreSQL
             - Vaultwarden
             - Excalidraw
+            - PBX with Asterisk & Issabel (no longer active)
+            - Matrix (no longer active)
+            - FTP with ProFTPD (no longer active)
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -139,32 +139,31 @@ content:
       - layout: left
         title: CUCEI
         caption: 2021 - 2026
-        sub_title: BSc software engineering
+        sub_title: BSc in Software Engineering
         #quote: >
           #the quote that will come to my mind.
         description: | # this will include new lines to allow paragraphs
-          I really like my career, and like to study in the library but only the thing that interest me.
+          I really enjoy my degree, and I like studying in the library, but only the topics that interest me.
 
   - title: Badges & Courses
     layout: text
     content: |
-      
-      ![DockerEssentials](/images/docker-essentials-badge.png "Docker essentials course badge")
-      ![Cybersecurity](/images/cybersecurity.png "Cisco introduction to cybersecurity badge")
+      ![Docker Essentials](/images/docker-essentials-badge.png "Docker Essentials course badge")
+      ![Cybersecurity](/images/cybersecurity.png "Cisco Introduction to Cybersecurity badge")
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
       Some of my interests are:
       - Gaming
-      - Tiling window managers xd
+      - Tiling window managers xD
       - Manga & anime
 
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
-references_title: . 
+references_title: .
 
 # Build settings
 remote_theme: sproogen/resume-theme
