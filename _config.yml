@@ -55,6 +55,50 @@ about_content: | # this will include new lines to allow paragraphs
   I am most skilled in: <mark>Linux</mark>, <mark>JavaScript</mark> & <mark>networking</mark>
 
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Moti Digital
+        sub_title: ERP Leader & Lead Full-Stack Developer
+        caption: 2024 - Present
+        quote: >
+          Promoted through roles: IT Intern → IT Analyst → IT Leader → ERP Leader
+        description: | # this will include new lines to allow paragraphs
+          Architected, developed, and deployed internal tools, custom ERP modules, and IT infrastructure over 2+ years.
+
+          **Full-Stack Development & Internal Tools:**
+          - Built unified internal SPAs using <mark>ReactJS</mark>, <mark>MUI</mark>, <mark>Material-React-Table</mark>, and <mark>useQuery</mark>, featuring client-side PDF, Excel, and image generation in vanilla JS.
+          - Engineered backend services using <mark>Bun</mark>, <mark>Express</mark>, REST APIs, JWT authentication with RBAC, <mark>PostgreSQL</mark>, <mark>MongoDB</mark>, SOAP ERP integrations, and <mark>MinIO</mark> object storage.
+          - Replaced legacy internal Excel files with real-time web dashboards and custom CRUD tools.
+
+          **ERP Customization & Data Solutions:**
+          - Administered and customized <mark>EFI PACE ERP</mark>, designing an Easy Quote module and a simplified custom MRP system tailored to company needs.
+          - Migrated PowerBI reports to high-performance web dashboards with real-time data integration from EFI PACE ERP and Contpaq.
+
+          **Operations, Logistics & Automation:**
+          - Integrated <mark>FedEx</mark> and <mark>DHL</mark> APIs for automated real-time delivery status updates.
+          - Built an automated warehouse flow to supply required materials to production areas based on current demand.
+          - Designed a barcode-driven production tracking system (scanning task and employee credentials) to simplify activity tracking.
+          - Developed a mobile delivery-scanning module allowing drivers to upload photo proof of delivery on site, replacing WhatsApp messaging.
+
+          **Infrastructure, Security & Observability:**
+          - Hardened backends with JWT/RBAC and published internal tools securely using <mark>Nginx</mark> reverse proxy and <mark>Certbot</mark> SSL certificates.
+          - Built virtualized clusters on <mark>Proxmox</mark> and migrated to <mark>XCP-NG</mark> for enterprise VM management, snapshot backups, and disaster recovery.
+          - Managed ~250 endpoints via <mark>FleetDM</mark>, creating automation scripts to block USB ports and auto-configure VNC access on <mark>Apache Guacamole</mark>.
+          - Deployed telemetry monitoring for Nginx using <mark>Grafana</mark>, <mark>Mimir</mark>, <mark>Loki</mark>, and <mark>Alloy</mark>.
+
+      - layout: left
+        title: Centro empresarial de Jalisco S.P.
+        #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: IT intern
+        caption: January 2023 - 2024
+        quote: >
+          Solving 21st century problems by restarting the server
+        description: | # this will include new lines to allow paragraphs
+          I help people with IT related problems, also I manage the servers which is the funiest part.
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -88,32 +132,6 @@ content:
             - N8N and Gitea with postgres
             - Vaultwarden
             - Excalidraw
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Moti Digital
-          #link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: IT intern
-        caption: 2024 - Present
-        quote: >
-          Started as Intert, then IT analist, then IT leader, then ERP Leader which is my current position
-        description: | # this will include new lines to allow paragraphs
-          I develop internal tools for the company in a unified system with simplified UI and custom business logic
-          Mainly with ReactJS and Bun with express, both with vanilla JS
-
-      - layout: left
-        title: Centro empresarial de Jalisco S.P.
-          #link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: IT intern
-        caption: January 2023 - 2024
-        quote: >
-          Solving 21st century problems by restarting the server
-        description: | # this will include new lines to allow paragraphs
-          I help people with IT related problems, also I manage the servers which is the funiest part.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
