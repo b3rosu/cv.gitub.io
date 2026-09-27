@@ -33,7 +33,7 @@ minecraft_server: beroth.moe
 # Additional icon links
 additional_links:
   - title: gitea
-    icon: fas fa-git
+    icon: fa-brands fa-git
     url: https://git.beroth.moe
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
