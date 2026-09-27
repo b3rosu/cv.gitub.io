@@ -16,7 +16,7 @@ darkmode: true
 
 # Social links
 #twitter_username: don't
-github_username:  b3rosu
+#github_username:  b3rosu
 minecraft_server: beroth.moe
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
@@ -32,9 +32,9 @@ minecraft_server: beroth.moe
 
 # Additional icon links
 additional_links:
-  #- title: dev.beroth.moe
-  #icon: fas fa-globe
-  #url: https://dev.beroth.moe
+  - title: gitea
+    icon: fas fa-git
+    url: https://git.beroth.moe
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,10 +49,10 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi I'm Bernabe I'm open to work, I have experience working with Linux and Windows server but what I like the most is Linux.
-  I also like networks python and cibersecurity.
-
-  I am most skilled in: <mark>Linux</mark> and <mark>networking</mark>
+  Hi I'm Bernabe and I'm open to work, I've been working in IT for over three years, two of them as a developer.
+  I like to never stop learning and try to always try new things and take advantage with code.
+  I have experience working with Linux and Windows servers but what I like the most is Linux.
+  I am most skilled in: <mark>Linux</mark>, <mark>JavaScript</mark> & <mark>networking</mark>
 
 content:
   - title: Projects # Title for the section
@@ -70,28 +70,46 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is why I started to really be into linux, before this I was using ubuntu 💀
+          I use arch BTW (debian for servers I'm not crazy 🥴)
         description: | # this will include new lines to allow paragraphs
-          I started to rent my first droplet over a year ago for a <mark>Server administration class</mark> and after that I learned that I like servers. 
-          The things I run are:
-            - Email whit exim & dovecot
-            - Web page with nginx (and apache2 for certbot)
+          I started to rent my first VPS in 2023 for <mark>Server administration class</mark> and after that I've keep doing it. 
+          The things I currently host and host for a while are:
+            - Email whit exim & dovecot, currently with poste.io
+            - Proxys with nginx apache (with SSL of curse)
             - OpenVPN & Wireguard VPN
-            - A PBX with asterisk, I have to say that it's not very useful
-            - Minecraft bedrock server
-            - Matrix, like a self hosted discord (is down rn)
-            - FTP with proftpd.
+            - ShadowSocks tunnel proxy (to jump the CUCEI firewall 👻)
+            - A PBX with asterisk and issabel (no longer do this)
+            - Minecraft servers
+            - Matrix (no longer active)
+            - FTP with proftpd (no longer active)
             - PiHole + Unbound
+            - CopyParty
+            - Immich
+            - N8N and Gitea with postgres
+            - Vaultwarden
+            - Excalidraw
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: Moti Digital
+          #link: boringcompany.com
+        # link_text: boringcompany.com
+        sub_title: IT intern
+        caption: 2024 - Present
+        quote: >
+          Started as Intert, then IT analist, then IT leader, then ERP Leader which is my current position
+        description: | # this will include new lines to allow paragraphs
+          I develop internal tools for the company in a unified system with simplified UI and custom business logic
+          Mainly with ReactJS and Bun with express, both with vanilla JS
+
+      - layout: left
         title: Centro empresarial de Jalisco S.P.
           #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: Intern in the area of systems
-        caption: January 2023 - Present
+        sub_title: IT intern
+        caption: January 2023 - 2024
         quote: >
           Solving 21st century problems by restarting the server
         description: | # this will include new lines to allow paragraphs
@@ -102,7 +120,7 @@ content:
     content:
       - layout: left
         title: CUCEI
-        caption: 2021 - ???
+        caption: 2021 - 2026
         sub_title: BSc software engineering
         #quote: >
           #the quote that will come to my mind.
@@ -111,7 +129,6 @@ content:
 
   - title: Badges & Courses
     layout: text
-                               
     content: |
       
       ![DockerEssentials](/images/docker-essentials-badge.png "Docker essentials course badge")
