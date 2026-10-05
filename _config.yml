@@ -49,9 +49,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Bernabe, and I'm open to work. I've been working in IT for over three years, two of them as a developer.
-  I never stop learning: I'm always trying new things and looking for ways to make the most of them with code.
-  I have experience with both Linux and Windows servers, but Linux is the one I enjoy the most.
+  Hi, I'm Bernabe. I've been working in IT for over three years, with two of those focused on full-stack development.
+  I'm driven by continuous learning—always experimenting with new technologies and finding ways to automate and build efficient solutions.
+  I have experience managing both Linux and Windows servers, though Linux is where I thrive.
   I'm most skilled in <mark>Linux</mark>, <mark>JavaScript</mark> & <mark>networking</mark>.
 
 content:
@@ -92,12 +92,10 @@ content:
         title: Centro empresarial de Jalisco S.P.
         #link: boringcompany.com
         # link_text: boringcompany.com
-        sub_title: IT intern
+        sub_title: IT Intern
         caption: January 2023 - 2024
-        quote: >
-          Solving 21st century problems by restarting the server
         description: | # this will include new lines to allow paragraphs
-          I help people with IT related problems, also I manage the servers which is the funiest part.
+          Provided IT support and network management while administering <mark>Windows Server</mark> infrastructure and <mark>CONTPAQi</mark> services. Automated core IT workflows—including internal app auto-updaters and service uptime monitoring—and configured a robust server backup system using <mark>Bacula</mark>.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -114,14 +112,14 @@ content:
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          I use Arch, BTW (Debian for servers, I'm not crazy 🥴)
+          I use Arch, BTW (Debian for servers, I'm not crazy)
         description: | # this will include new lines to allow paragraphs
           I rented my first VPS in 2023 for a <mark>server administration class</mark> and I've kept doing it ever since.
           Things I host now or have hosted in the past:
             - Email with Exim & Dovecot, now running on poste.io
             - Reverse proxies with Nginx & Apache (with SSL, of course)
             - OpenVPN & WireGuard VPNs
-            - Shadowsocks tunnel proxy (to jump the CUCEI firewall 👻)
+            - Shadowsocks tunnel proxy
             - Minecraft servers
             - Pi-hole + Unbound
             - copyparty
@@ -143,7 +141,7 @@ content:
         #quote: >
           #the quote that will come to my mind.
         description: | # this will include new lines to allow paragraphs
-          I really enjoy my degree, and I like studying in the library, but only the topics that interest me.
+          Focused on software engineering fundamentals, systems architecture, networking, and software development.
 
   - title: Badges & Courses
     layout: text
